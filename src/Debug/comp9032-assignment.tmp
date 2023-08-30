@@ -1,0 +1,68 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE>
+  <FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\led.asm</FILE>
+  <FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE>
+  <FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\button.asm</FILE>
+  <FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\interrupt.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\Debug\comp9032-assignment.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>comp9032-assignment.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>comp9032-assignment.map</FILE>
+  <FILE>comp9032-assignment.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <pb_ext_int_0><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\interrupt.asm</FILE><LINE>10</LINE></pb_ext_int_0>
+  <pb_ext_int_1><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\interrupt.asm</FILE><LINE>17</LINE></pb_ext_int_1>
+  <LCD_MAIN><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>210</LINE></LCD_MAIN>
+  <LCD_RESET><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>74</LINE></LCD_RESET>
+  <lcd_command><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>119</LINE></lcd_command>
+  <lcd_wait><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>149</LINE></lcd_wait>
+  <sleep_5ms><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>184</LINE></sleep_5ms>
+  <sleep_1ms><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>171</LINE></sleep_1ms>
+  <lcd_data><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>132</LINE></lcd_data>
+  <send_lcd_command><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>109</LINE></send_lcd_command>
+  <send_lcd_data><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>114</LINE></send_lcd_data>
+  <lcd_wait_loop><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>155</LINE></lcd_wait_loop>
+  <delayloop_1ms><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>177</LINE></delayloop_1ms>
+  <sleep_10ms><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>192</LINE></sleep_10ms>
+  <sleep_50ms><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>197</LINE></sleep_50ms>
+  <sleep_100ms><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\lcd.asm</FILE><LINE>205</LINE></sleep_100ms>
+  <LED_MAIN><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\led.asm</FILE><LINE>28</LINE></LED_MAIN>
+  <LED_RESET><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\led.asm</FILE><LINE>14</LINE></LED_RESET>
+  <KEYPAD_MAIN><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>139</LINE></KEYPAD_MAIN>
+  <KEYPAD_RESET><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>29</LINE></KEYPAD_RESET>
+  <keypad_read_input><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>40</LINE></keypad_read_input>
+  <kri_main><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>57</LINE></kri_main>
+  <kri_colloop><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>66</LINE></kri_colloop>
+  <kri_delay><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>72</LINE></kri_delay>
+  <kri_nextcol><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>93</LINE></kri_nextcol>
+  <kri_rowloop><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>83</LINE></kri_rowloop>
+  <kri_convert><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>98</LINE></kri_convert>
+  <kri_letters><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>111</LINE></kri_letters>
+  <kri_symbols><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>116</LINE></kri_symbols>
+  <kri_convert_end><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>129</LINE></kri_convert_end>
+  <kri_star><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>123</LINE></kri_star>
+  <kri_zero><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\keypad.asm</FILE><LINE>126</LINE></kri_zero>
+  <PB_MAIN><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\button.asm</FILE><LINE>23</LINE></PB_MAIN>
+  <PB_RESET><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\button.asm</FILE><LINE>11</LINE></PB_RESET>
+  <EXTERNAL_INTERRUPT_SETUP><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\interrupt.asm</FILE><LINE>26</LINE></EXTERNAL_INTERRUPT_SETUP>
+  <main><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\main.asm</FILE><LINE>27</LINE></main>
+  <end><FILE>C:\Users\Oscar Feng\Desktop\UNSW\COMP9032\comp9032-labs-project\lab-template\lab-template\main.asm</FILE><LINE>84</LINE></end>
+ </LABELS>
+</ASSEMBLER_INFO>
